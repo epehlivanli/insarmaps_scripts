@@ -9,4 +9,6 @@
 # After downloading:
 
 unzip NOAA_SNT_A_VERT_10_50m.csv.zip
+
+#to run
 hdfeos5_2json_mbtiles.py --csv input_dir/NOAA_SNT_A_VERT_10_50m.csv output_dir/
